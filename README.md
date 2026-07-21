@@ -100,27 +100,24 @@ The best-performing model was deployed using Streamlit for real-time predictions
 
 ## 📈 Model Performance
 
-The deployed Logistic Regression model achieved:
+Six machine learning models were trained and evaluated using Accuracy, Precision, Recall, F1 Score, and AUC.
 
-| Metric | Value |
-|---------|--------|
-| Accuracy | **80.38%** |
-| Problem Type | Binary Classification |
+| Model | Accuracy | Precision | Recall | F1 Score | AUC |
+|-------|---------:|----------:|--------:|---------:|--------:|
+| **Logistic Regression** | **80.38%** | **64.94%** | **56.95%** | **60.68%** | **83.60%** |
+| Decision Tree (Tuned) | 77.83% | 58.07% | 59.63% | 58.84% | 81.97% |
+| Random Forest (Tuned) | 79.53% | 64.93% | 50.00% | 56.50% | 83.85% |
+| Random Forest | 78.96% | 62.58% | 51.87% | 56.73% | 81.63% |
+| XGBoost | 77.11% | 57.60% | 52.67% | 55.03% | 81.14% |
+| Decision Tree | 71.93% | 47.17% | 46.79% | 46.98% | 63.88% |
 
----
+**Final Model Selected:** Logistic Regression
 
-## 🌐 Streamlit Web Application
+**Reason for Selection:**
+- Highest **F1 Score (60.68%)**, providing the best balance between Precision and Recall.
+- Strong **AUC (83.60%)**, indicating excellent discrimination between churn and non-churn customers.
+- Simple, interpretable, and computationally efficient for deployment in the Streamlit application.
 
-The web application allows users to:
-
-- Enter customer details
-- Predict customer churn
-- View churn probability
-- View customer risk level
-- View business recommendations
-- Identify top churn risk factors
-
----
 
 ## 🌐 Streamlit Web Application
 
