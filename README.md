@@ -14,6 +14,14 @@ This project predicts the probability of customer churn using historical custome
 
 ---
 
+## 🚀 Live Demo
+
+🔗 **Try the application here:**
+
+https://customer-churn-prediction-e8phepz3cffx49rmdb7a9w.streamlit.app
+
+---
+
 ## 🎯 Business Problem
 
 The objective is to build a classification model capable of predicting whether a customer is likely to leave the telecom company.
