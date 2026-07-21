@@ -122,6 +122,59 @@ The web application allows users to:
 
 ---
 
+## 🌐 Streamlit Web Application
+
+The web application allows users to:
+
+- Enter customer details
+- Predict customer churn
+- View churn probability
+- View customer risk level
+- View business recommendations
+- Identify top churn risk factors
+
+---
+
+# 📸 Application Screenshots
+
+## Home Page
+
+![Home Page](images/main.png)
+
+---
+
+## Customer Summary
+
+![Customer Summary](images/customer_summary.png)
+
+---
+
+## Business Recommendation
+
+![Business Recommendation](images/business_recommendation.png)
+
+---
+
+## Model Comparison
+
+### Accuracy Comparison
+
+![Accuracy](images/accuracy_comparison.png)
+
+### AUC Comparison
+
+![AUC](images/auc_comparison.png)
+
+### F1 Score Comparison
+
+![F1 Score](images/f1_score_comparison.png)
+
+### Recall Comparison
+
+![Recall](images/recall_comparison.png)
+
+---
+
 ## 🛠 Technologies Used
 
 - Python
